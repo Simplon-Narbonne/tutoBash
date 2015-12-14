@@ -1,4 +1,6 @@
-Pourquoi avoir besoin d'écrire un script ?
+Créé par David TARCZEWSKI @david
+
+	Pourquoi avoir besoin d'écrire un script ?
 
 --> Chaque fois que l'on sait que les commandes tapées vont nous servir plusieurs fois...
 --> Par exemple, faire des copies de sauvegarde d'un ou plusieurs dossiers et/ou fichiers dans un endroit sécurisé.
@@ -7,7 +9,7 @@ Il faut préciser en premier le langage utilisé dans notre cas : bash.
 Ça s'écrit : #!/bin/bash
 Et on le déclare en première ligne.
 
-Voici un exemple de script :
+	Voici un exemple de script :
 
 =================
 
@@ -37,7 +39,14 @@ tar -cvzf /media/utilisateur/USB-STICK/backup.tar.gz "/home/utilisateur/simplon/
 
 =================
 
+	Comment ?
+
+Nommage :
+
 Ce fichier que l'on créé, on lui donne un nom qui porte l'extension (se termine) .sh , par exemple save.sh.
+
+
+Droits :
 
 Il faut qu'il soit exécutable. 
 Pour vérifier cela, faire un ls -l. 
@@ -56,6 +65,8 @@ ensuite le nom de l'utilisateur, et celui du groupe qui ont les droits précéde
 
 S'il ne l'est pas, taper en console :
 $sudo chmod u+x save.sh
+
+Appel :
 
 Pour l'appeler il faut se placer à l'endroit où il se trouve, puis taper en console ./ avant son nom, par exemple $./save.sh
 

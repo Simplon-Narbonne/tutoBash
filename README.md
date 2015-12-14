@@ -1,5 +1,9 @@
 # tutoriel-script-bash
 ##Tous nos tutoriels HTML since 10/2015
+
+
+######créé par David TARCZEWSKI @david
+
 un petit tutoriel *à améliorer* pour faire ses **scripts bash** et automatiser les tâches répétitives sur son système
 
 1. Pourquoi ?

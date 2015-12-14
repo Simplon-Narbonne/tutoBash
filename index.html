@@ -6,13 +6,12 @@
   </head>
   <body>
     <h3>Faire ses Scripts Bash - Pourquoi, Comment ?</h3>
-    <p>
-      Pourquoi avoir besoin d'écrire un script ?
+    <p>Pourquoi avoir besoin d'écrire un script ?</p>
       <ul>
         <li>Chaque fois que l'on sait que les commandes tapées vont nous servir plusieurs fois...</li>
         <li>Par exemple, faire des copies de sauvegarde d'un ou plusieurs dossiers et/ou fichiers dans un endroit sécurisé.</li>
       </ul>
-    </p>
+    
     <p>
       Il faut préciser en premier le langage utilisé dans notre cas : <strong>bash</strong>.<br>
       Ça s'écrit : <pre>#!/bin/bash</pre><br>
@@ -53,8 +52,9 @@
     </p>
     <p>
       Il faut qu'il soit exécutable.<br>
-      Pour vérifier cela, faire un ls -l.
+      Pour vérifier cela, faire un ls -l nom-du-fichier.
       <pre>
+	$ ls -l save.sh
         -rwxr-xr-x 1 david david  743 nov.   5 14:01 save.sh
       </pre>
       <ul>

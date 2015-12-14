@@ -9,7 +9,7 @@
     <h3>Faire ses Scripts Bash - Pourquoi, Comment ?</h3>
 	<h6>Créé par David TARCZEWSKI @david</h6>
 	<h4>Pourquoi ?</h4>
-	<h5>Besoin</h5>
+	<h5>Besoins</h5>
     <p>Pourquoi avoir besoin d'écrire un script ?</p>
       <ul>
         <li>Chaque fois que l'on sait que les commandes tapées vont nous servir plusieurs fois...</li>
@@ -23,13 +23,9 @@
     </p>
     <p>
       Voici un exemple de script :
-      <pre>
-        #!/bin/bash
-
-        rsync -av --partial --progress --stats --bwlimit=20 /home/user/l-espace-a-sauvegarder/ /la/destination/de/sauvegarde/
-
-        exit 0
-      </pre>
+      <pre>#!/bin/bash
+rsync -av --partial --progress --stats --bwlimit=20 /home/user/l-espace-a-sauvegarder/ /la/destination/de/sauvegarde/
+exit 0</pre>
     </p>
     <p>
       Ici on donne la commande rsync<br>
@@ -71,11 +67,18 @@
         <li>puis 3 autres signes : droits du groupe,</li>
         <li>puis encore 3 signes : droits des autres.</li>
         <li>ensuite le nom de l'utilisateur, et celui du groupe qui ont les droits précédemment indiqués...</li>
-      </ul>
+      </ul><br>
+      Donc il faut que l'on ai la lettre <span>x</span> pour qu'il soit exécutable...<br>
       S'il ne l'est pas, taper en console :
       <pre>
-        $sudo chmod u+x save.sh
+        $sudo chmod a+x save.sh
       </pre>
+      <ul>
+        <li>a = all (tout le monde)</li>
+        <li>+ = rajouter</li>
+        <li>x = execute (droit d'exécution)</li>
+      </ul>
+
     </p>
 
 	<h5>Appel</h5>

@@ -74,16 +74,14 @@ $save.sh
 ================
 
 
-EXERCICE : Vous devez tout faire en console ;)
+EXERCICE :
 
-Partie 1:
-	Créez un dossier de test, 
-	Placez vous dedans,
-	Créer 2 fichiers,
-	Dans 1 des fichiers écrivez quelque chose...
+Créez un dossier de test nommé testscript
+Placez vous dedans
+Créer 2 fichier : fichier1 et fichier2
+dans fichier 1 écrivez quelque chose
+Créez un script bash(scriptsynchro.sh) qui va synchoniser fichier1 avec fichier2
+Une fois fait, vérifiez-en les droits et donnez lui les droits d'exécution pour tout le monde
+Exécutez-le en observant bien votre console
+Rendez-le maintenant exécutable de n'importe où... (vérifier le $PATH et si nécessaire indiquez-lui où trouver votre répertoire bin)
 
-Partie 2:
-	Créez un script bash(scriptsynchro.sh) qui va synchoniser fichier1 avec fichier2,
-	Une fois fait, vérifiez-en les droits et donnez lui les droits d'exécution pour tout le monde,
-	Exécutez-le en observant bien votre console...
-	Rendez-le maintenant exécutable de n'importe où ! (vérifier le $PATH et si nécessaire indiquez-lui où trouver votre répertoire bin).

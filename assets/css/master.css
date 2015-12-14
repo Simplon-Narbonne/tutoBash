@@ -1,0 +1,12 @@
+body {
+  width: 600px;
+  margin: auto;
+}
+body pre {
+  width: 500px;
+  margin: auto;
+  padding: 5px;
+  white-space: pre-wrap;
+  background-color: black;
+  color: white;
+}

@@ -15,6 +15,7 @@ un petit tutoriel *à améliorer* pour faire ses **scripts bash** et automatiser
   22. Droits
   23. Appel
 3. Exercice
+
 !(assets/img/script-bash-exemple.png "exemple de script bash")
 
 ##Pourquoi avoir besoin d'écrire un script ?

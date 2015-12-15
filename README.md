@@ -2,7 +2,7 @@
 ##Tous nos tutoriels HTML since 10/2015
 
 
-######créé par David TARCZEWSKI @david
+######créé par Thomas NGOMA @thomas et David TARCZEWSKI @david
 
 un petit tutoriel *à améliorer* pour faire ses **scripts bash** et automatiser les tâches répétitives sur son système
 

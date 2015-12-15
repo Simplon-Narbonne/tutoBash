@@ -2,7 +2,8 @@
 ##Tous nos tutoriels HTML since 10/2015
 
 
-######créé par Thomas NGOMA @thomas et David TARCZEWSKI @david
+######créé par Thomas NGOMA et David TARCZEWSKI
+######retrouvez nous sur Slack : @thomas et @david
 
 un petit tutoriel *à améliorer* pour faire ses **scripts bash** et automatiser les tâches répétitives sur son système
 
